@@ -2,9 +2,9 @@
 // The warmest place to hide... is Frag. 
 //------------------------------------------------------------------------------
 
-// For mappers. Uncomment and add thingids as needed.
-/*
-class InnocentMimicBarrel : HDMimicBarrel
+// For mappers. add thingids as needed.
+
+class InnocentMimicBarrel : MimicBarrel
 {
 	default
 	{
@@ -13,14 +13,14 @@ class InnocentMimicBarrel : HDMimicBarrel
 }
 
 
-class KillerMimicBarrel : HDMimicBarrel
+class KillerMimicBarrel : MimicBarrel
 {
 	default
 	{
 		hdbarrel.musthavegremlin 1;
 	}
 }
-*/
+
 
 
 
@@ -76,6 +76,7 @@ class MimicBarrel : HDBarrel
    {
 		super.postbeginplay();
 		bhasawaken = false;
+		bisobvious = brl_obviousness;
    }
    
  

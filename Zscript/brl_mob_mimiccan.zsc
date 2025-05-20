@@ -2,8 +2,8 @@
 // CAN you dig it? I SAID, CA- *BOOM*
 //------------------------------------------------------------------------------
 
-// For mappers. Uncomment and add thingids as needed.
-/*
+// For mappers. add thingids as needed.
+
 class InnocentMimicCan : MimicCan
 {
 	default
@@ -20,7 +20,7 @@ class KillerMimicCan : MimicCan
 		hdbarrel.musthavegremlin 1;
 	}
 }
-*/
+
 
 
 
@@ -98,6 +98,7 @@ class MimicCan : MimicBarrel
    {
 		super.postbeginplay();
 		bhasawaken = false;
+		bisobvious = brl_obviousness;
    }
    
    
