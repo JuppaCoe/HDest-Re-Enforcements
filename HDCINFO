@@ -65,7 +65,7 @@ addSpawnTableSingleEntry => { "tableName": "HDRE.BiomechanoidSpawns", "name": "B
 
 
 // Barrel Spawn Entries
-addSpawnTableNestedEntry => { "tableName": "ExplosiveBarrelReplacesReplaces", "name": "HDRE.MimicBarrelSpawns", "weight": "#brl_barrel_spawn_bias", "persists": "#brl_persistent_spawning" }
+addSpawnTableNestedEntry => { "tableName": "ExplosiveBarrelReplaces", "name": "HDRE.MimicBarrelSpawns", "weight": "#brl_barrel_spawn_bias", "persists": "#brl_persistent_spawning" }
 addSpawnTableSingleEntry => { "tableName": "HDRE.MimicBarrelSpawns", "name": "KillerMimicBarrel", "weight": "#brl_barrel_bale_bias", "persists": "#brl_persistent_spawning" }
 addSpawnTableSingleEntry => { "tableName": "HDRE.MimicBarrelSpawns", "name": "InnocentMimicBarrel", "weight": "1.0", "persists": "#brl_persistent_spawning" }
 
