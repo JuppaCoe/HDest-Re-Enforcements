@@ -77,9 +77,9 @@ addSpawnTableSingleEntry => { "tableName": "HDRE.MimicCanSpawns", "name": "Innoc
 
 // Bounty Targets
 newMerchantBountyTarget => { "name": "HDREZombieman", "value": "250" }
+newMerchantBountyTarget => { "name": "HDREImp", "value": "300" }
 newMerchantBountyTarget => { "name": "HDHellSquire", "value": "450" }
 newMerchantBountyTarget => { "name": "HDREArachnotron", "value": "700" }
-newMerchantBountyTarget => { "name": "HDREImp", "value": "300" }
 
 
 // UaS Flashlight Support
