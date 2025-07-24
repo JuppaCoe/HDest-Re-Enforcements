@@ -32,8 +32,8 @@ addSpawnTableNestedEntry => { "tableName": "ZombieSemiStormtrooper", "name": "HD
 addSpawnTableNestedEntry => { "tableName": "ZombieSMGStormtrooper", "name": "HDRE.RevolverZombieSpawns", "weight": "#rsz_semis_spawn_bias", "persists": "#rsz_persistent_spawning" }
 addSpawnTableNestedEntry => { "tableName": "ZombieAutoStormtrooper", "name": "HDRE.RevolverZombieSpawns", "weight": "#rsz_smgs_spawn_bias", "persists": "#rsz_persistent_spawning" }
 
-addSpawnTableSingleEntry => { "tableName": "HDRE.RevolverZombieSpawns", "name": "RevolverZombie355", "weight": "#rsz_355_chance_bias", "persists": "#rsz_persistent_spawning" }
-addSpawnTableSingleEntry => { "tableName": "HDRE.RevolverZombieSpawns", "name": "RevolverZombie9mm", "weight": "1.0", "persists": "#rsz_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "HDRE.RevolverZombieSpawns", "name": "RevolverZombieman355", "weight": "#rsz_355_chance_bias", "persists": "#rsz_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "HDRE.RevolverZombieSpawns", "name": "RevolverZombieman9mm", "weight": "1.0", "persists": "#rsz_persistent_spawning" }
 
 addSpawnTableSingleEntry => { "tableName": "DeadZombieManReplaces", "name": "RevolverZombiemanCorpse", "weight": "#rsz_corpse_spawn_bias", "persists": "#rsz_persistent_spawning" }
 
@@ -61,8 +61,8 @@ addSpawnTableSingleEntry => { "tableName": "HealerImp", "name": "HDHellSquire", 
 // Bio-Mechanoid Spawn Entries
 addSpawnTableNestedEntry => { "tableName": "ArachnotronReplaces", "name": "HDRE.BiomechanoidSpawns", "weight": "#bio_spawn_bias", "persists": "#bio_persistent_spawning" }
 
-addSpawnTableSingleEntry => { "tableName": "HDRE.BiomechanoidSpawns", "name": "BiomchanoidMajor", "weight": "#bio_major_spawn_bias", "persists": "#bio_persistent_spawning" }
-addSpawnTableSingleEntry => { "tableName": "HDRE.BiomechanoidSpawns", "name": "BiomechanoicMinor", "weight": "1.0", "persists": "#bio_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "HDRE.BiomechanoidSpawns", "name": "BiomechanoidMajor", "weight": "#bio_major_spawn_bias", "persists": "#bio_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "HDRE.BiomechanoidSpawns", "name": "BiomechanoidMinor", "weight": "1.0", "persists": "#bio_persistent_spawning" }
 
 
 // Barrel Spawn Entries
