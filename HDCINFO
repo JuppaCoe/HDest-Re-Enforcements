@@ -85,4 +85,4 @@ newMerchantBountyTarget => { "name": "HDREArachnotron", "value": "700" }
 // UaS Flashlight Support
 addFlashlightHumanClass => { "name": "HDREZombieman" }
 addFlashlightOtherClass => { "name": "HDREArachnotron" }
-addFlashlightOtherClass => { "name": "ManticoreBase" }
+addFlashlightOtherClass => { "name": "BalorBase" }
